@@ -1,0 +1,74 @@
+body, html {
+    height: 100%;
+  }
+
+body {
+    box-sizing: border-box;
+    padding:0;
+    background-color: ghostwhite;
+    margin:0;
+
+
+
+
+}
+
+.main {
+    display: grid;
+    /* align-content: center; */
+    /* place-items: center; */
+    height: 100%;
+}
+
+.card {
+    display: grid;
+    box-sizing: border-box;
+
+    margin: auto;
+    width: 400px;
+    height: 500px;
+
+    /* border: 1px solid  #566573 ; */
+    border-radius: 20px;
+
+    /* box-shadow: 10px 10px 5px 5px rgb(173, 216, 230); */
+    box-shadow: 0 4px 8px 0 rgba(173, 216, 230, 0.65), 0 6px 20px 0 rgba(15, 33, 40, 0.23);
+
+    padding: 30px 35px;
+    text-align: center;
+
+    background-color:   #f4faf9  ;
+
+}
+
+.card-content {
+    margin: auto;
+    color:grey;
+
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.name-n-job {
+    margin-bottom: 55px;
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.short-description {
+    color: rgb(120, 120, 120);
+    text-shadow: 0 0 1px #cbb7b7, 0 0 2px #90b9e5;
+    /* font-weight: 400; */
+}
+
+.contact-me {
+    margin-top: 55px;
+
+    color: rgb(40, 40, 40);
+    
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
