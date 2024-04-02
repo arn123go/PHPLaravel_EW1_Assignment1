@@ -20,8 +20,8 @@ function calc(event) {
   let result = 0;
   let n1 = Number(num1.value);
   let n2 = Number(num2.value);
-  console.log(n1);
-  console.log(n2);
+  // console.log(n1);
+  // console.log(n2);
 
   if (isNaN(n1) || num1.value == '') {
     error += 'Please insert a valid number in "Number 1" slot!<br/>';
