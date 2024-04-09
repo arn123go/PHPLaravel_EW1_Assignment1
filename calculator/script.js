@@ -33,7 +33,7 @@ function calc(event) {
     error += "Please select an operator!";
   }
   if (operator.value == 'division' && n2 == 0 && num2.value != ''){
-    error += "Cannot divide a number by zero!"
+    error += '"Division" selected. So, Divisor (i.e. Number 2) must not be zero!';
   }
 
   if (error) {
